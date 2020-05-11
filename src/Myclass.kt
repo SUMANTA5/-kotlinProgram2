@@ -16,7 +16,6 @@ class Myclass {
             println()
         }
     }
-
     fun diamondStarPattern() {
         val rows = 9
         val column = 9
@@ -32,7 +31,7 @@ class Myclass {
             println()
         }
     }
- fun hollowDiamondStarPattern() {
+    fun hollowDiamondStarPattern() {
         val rows = 9
         val column = 9
         var k = 0
@@ -47,8 +46,7 @@ class Myclass {
             println()
         }
     }
-
-fun xStarPattern() {
+    fun xStarPattern() {
         val rows = 9
         val column = 9
         var k = 0
@@ -62,15 +60,52 @@ fun xStarPattern() {
             println()
         }
     }
-
-
-fun plusStarPattern() {
+    fun plusStarPattern() {
         val rows = 9
         val column = 9
         var k = 0
         for (i in 1..rows) {
             for (j in 1..column) {
                 if ((i==5)||(j==5))
+                    print("* ")
+                else
+                    print("  ")
+            }
+            println()
+        }
+    }
+    fun rhombusStarPattern() {
+        val rows = 5
+        val column = 9
+        for (i in 1..rows) {
+            for (j in 1..column) {
+                if (j>=6-i&&j<=10-i)
+                    print("* ")
+                else
+                    print("  ")
+            }
+            println()
+        }
+    }
+    fun mirroredRhombusStarPattern() {
+        val rows = 5
+        val column = 9
+        for (i in 1..rows) {
+            for (j in 1..column) {
+                if (j>=i&&j<=4+i)
+                    print("* ")
+                else
+                    print("  ")
+            }
+            println()
+        }
+    }
+    fun hollowMirroredRhombusStarPattern() {
+        val rows = 5
+        val column = 9
+        for (i in 1..rows) {
+            for (j in 1..column) {
+                if (j==i||j==4+i||i==1||i==5)
                     print("* ")
                 else
                     print("  ")
