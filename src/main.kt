@@ -2,7 +2,7 @@
 
 fun main() {
     val a = Myclass()
-    a.hollowMirroredRhombusStarPattern()
+    a.numberPattern14()
 
 
     val b = HeartStarPattern()
