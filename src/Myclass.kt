@@ -315,6 +315,7 @@ class Myclass {
             println()
         }
     }
+
     //15:5:20
     fun numberPatternMY1() {
         val rows = 7
@@ -332,6 +333,7 @@ class Myclass {
             println()
         }
     }
+
     fun numberPatternMY2() {
         val rows = 9
         val column = 5
@@ -350,6 +352,7 @@ class Myclass {
             println()
         }
     }
+
     //16:5:20
     fun numberPatternMY3() {
         val rows = 6
@@ -368,6 +371,7 @@ class Myclass {
             println()
         }
     }
+
     fun numberPatternMY4() {
         val rows = 4
         val column = 7
@@ -384,6 +388,7 @@ class Myclass {
             println()
         }
     }
+
     fun numberPatternMY5() {
         val rows = 5
         val column = 5
@@ -400,7 +405,8 @@ class Myclass {
             println()
         }
     }
- fun numberPattern20() {
+
+    fun numberPattern20() {
         val rows = 5
         val column = 5
         var k: Int
@@ -415,15 +421,16 @@ class Myclass {
             println()
         }
     }
-fun numberPattern21() {
+
+    fun numberPattern21() {
         val rows = 5
         val column = 5
         var k: Int
         for (i in 1..rows) {
-            k = 6-i
+            k = 6 - i
             for (j in 1..column) {
 
-                if (j <= 6-i) {
+                if (j <= 6 - i) {
                     print("$k ")
 
                 } else
@@ -432,7 +439,8 @@ fun numberPattern21() {
             println()
         }
     }
-fun numberPattern22() {
+
+    fun numberPattern22() {
         val rows = 5
         val column = 5
         var k: Int
@@ -440,7 +448,7 @@ fun numberPattern22() {
             k = i
             for (j in 1..column) {
 
-                if (j <= 6-i) {
+                if (j <= 6 - i) {
                     print("$k ")
 
                 } else
@@ -449,12 +457,13 @@ fun numberPattern22() {
             println()
         }
     }
+
     fun numberPattern23() {
         val rows = 5
         val column = 5
         var k: Int
         for (i in 1..rows) {
-            k = 6-i
+            k = 6 - i
             for (j in 1..column) {
                 if (j <= i) {
                     print("$k ")
@@ -482,7 +491,6 @@ fun numberPattern22() {
         }
     }
 
-
     fun numberPattern25() {
         val rows = 5
         val column = 5
@@ -490,16 +498,15 @@ fun numberPattern22() {
         for (i in 1..rows) {
             k = 1
             for (j in 1..column) {
-                if (j <= 6-i) {
+                if (j <= 6 - i) {
                     print("$k ")
-                   k++
+                    k++
                 } else
                     print("  ")
             }
             println()
         }
     }
-
 
     fun numberPattern26() {
         val rows = 5
@@ -518,15 +525,14 @@ fun numberPattern22() {
         }
     }
 
-
     fun numberPattern27() {
         val rows = 5
         val column = 5
         var k: Int
         for (i in 1..rows) {
-            k = 6-i
+            k = 6 - i
             for (j in 1..column) {
-                if (j <= 6-i) {
+                if (j <= 6 - i) {
                     print("$k ")
                     k--
                 } else
@@ -536,7 +542,6 @@ fun numberPattern22() {
         }
     }
 
-
     fun numberPattern28() {
         val rows = 5
         val column = 5
@@ -544,7 +549,7 @@ fun numberPattern22() {
         for (i in 1..rows) {
 
             for (j in 1..column) {
-                k=6-j
+                k = 6 - j
                 if (j <= i) {
                     print("$k ")
 
@@ -554,7 +559,6 @@ fun numberPattern22() {
             println()
         }
     }
-
 
     fun numberPattern29() {
         val rows = 5
@@ -562,8 +566,8 @@ fun numberPattern22() {
         var k: Int
         for (i in 1..rows) {
             for (j in 1..column) {
-                k = 6-j
-                if (j <= 6-i) {
+                k = 6 - j
+                if (j <= 6 - i) {
                     print("$k ")
 
                 } else
@@ -572,36 +576,34 @@ fun numberPattern22() {
             println()
         }
     }
-
 
     fun numberPattern30() {
         val rows = 5
         val column = 5
         var k: Int
         for (i in 1..rows) {
-            k=6-i
+            k = 6 - i
             for (j in 1..column) {
 
                 if (j <= i) {
                     print("$k ")
-                   k++
+                    k++
                 } else
                     print("  ")
             }
             println()
         }
     }
-
 
     fun numberPattern31() {
         val rows = 5
         val column = 5
         var k: Int
         for (i in 1..rows) {
-            k=i
+            k = i
             for (j in 1..column) {
 
-                if (j <= 6-i) {
+                if (j <= 6 - i) {
                     print("$k ")
                     k++
                 } else
@@ -610,38 +612,15 @@ fun numberPattern22() {
             println()
         }
     }
-
-
-
     fun numberPattern32() {
         val rows = 5
         val column = 5
         var k: Int
         for (i in 1..rows) {
-            k=i
+            k = i
             for (j in 1..column) {
 
                 if (j <= i) {
-                    print("$k ")
-                   k++
-                } else
-                    print("  ")
-            }
-            println()
-        }
-    }
-
-
-
-    fun numberPattern33() {
-        val rows = 5
-        val column = 5
-        var k: Int
-        for (i in 1..rows) {
-            k=6-i
-            for (j in 1..column) {
-
-                if (j <= 6-i) {
                     print("$k ")
                     k++
                 } else
@@ -650,9 +629,23 @@ fun numberPattern22() {
             println()
         }
     }
+    fun numberPattern33() {
+        val rows = 5
+        val column = 5
+        var k: Int
+        for (i in 1..rows) {
+            k = 6 - i
+            for (j in 1..column) {
 
-
-
+                if (j <= 6 - i) {
+                    print("$k ")
+                    k++
+                } else
+                    print("  ")
+            }
+            println()
+        }
+    }
 
 
 }
