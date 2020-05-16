@@ -612,6 +612,7 @@ class Myclass {
             println()
         }
     }
+
     fun numberPattern32() {
         val rows = 5
         val column = 5
@@ -629,6 +630,7 @@ class Myclass {
             println()
         }
     }
+
     fun numberPattern33() {
         val rows = 5
         val column = 5
