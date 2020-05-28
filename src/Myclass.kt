@@ -797,7 +797,9 @@ class Myclass {
         }
     }
 
-    fun numberPattern41() {//not
+    //19:5:20
+
+    fun numberPattern41() {
         val rows = 5
         val column = 9
         var k = -1
@@ -808,13 +810,129 @@ class Myclass {
             for (j in 1..column) {
                 if (j <= k + i) {
                     print("$p ")
-                    p=p+2
+                    if(j< i) p += 2 else p -= 2
                 } else
                     print(" ")
             }
             println()
         }
     }
+
+    fun numberPattern42() {
+        val rows = 5
+        val column = 9
+        var k = -1
+        var p: Int
+        for (i in 1..rows) {
+            k++
+            p = 2
+            for (j in 1..column) {
+                if (j <= k + i) {
+                    print("$p ")
+                    if(j< i) p += 2 else p -= 2
+                } else
+                    print(" ")
+            }
+            println()
+        }
+    }
+
+    fun numberPattern43() {
+        val rows = 5
+        val column = 9
+        var k = -1
+        var p: Int
+        for (i in 1..rows) {
+            k++
+            p = 1
+            for (j in 1..column) {
+                if (j <= k + i) {
+                    print("$p ")
+                    if(j< i) p += 1 else p -= 1
+                } else
+                    print(" ")
+            }
+            println()
+        }
+    }
+
+    fun numberPattern44() {//not
+        val rows = 5
+        val column = 8
+        var k = -1
+        var p: Int
+        var x =1
+        for (i in 1..rows) {
+            k++
+            p = x
+            for (j in 1..column) {
+                if (j <= k + i) {
+                    print("$p ")
+                    if (j<i-1) p++ else p--
+
+                } else
+                    print(" ")
+            }
+            println()
+            if (i <  2 ) x += 2 else x++
+        }
+    }
+
+    fun numberPattern45() {
+        val rows = 5
+        val column = 5
+        var k =1
+        for (i in 1..rows) {
+            for (j in 1..column) {
+                if (j <= i) {
+                    print("$k ")
+                    k++
+                } else
+                    print("  ")
+            }
+            println()
+        }
+    }
+
+    fun numberPattern46() {//not
+        val rows = 5
+        val column = 5
+        var k =1
+        for (i in 1..rows) {
+            for (j in 1..column) {
+                if (j <= i) {
+
+                    print("$k ")
+
+
+                } else
+                    print("  ")
+            }
+            println()
+
+
+        }
+    }
+
+fun numberPattern48() {
+        val rows = 5
+        val column = 9
+        var k=1
+        for (i in 1..rows) {
+
+            for (j in 1..column) {
+                if (j <= i || j >= 10-i) {
+
+                    print("$k ")
+                    if (j<5) k++ else k--
+                } else
+                    print("  ")
+            }
+            println()
+        }
+    }
+
+
 
 
 

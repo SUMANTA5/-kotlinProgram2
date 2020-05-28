@@ -2,7 +2,7 @@
 
 fun main() {
     val a = Myclass()
-    a. numberPattern41()
+    a. numberPattern48()
 
 
    // val b = HeartStarPattern()
